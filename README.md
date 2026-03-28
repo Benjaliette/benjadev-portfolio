@@ -1,27 +1,39 @@
-# BenjadevPortfolio
+<div align="center">
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.1.
+# 🚀 Benjamin Liet — Portfolio
 
-## Development server
+[![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)](https://angular.io/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+🌐 [www.benjamin-liet.space](https://www.benjamin-liet.space)
 
-## Code scaffolding
+---
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### 🚧 Site actuellement en construction 🚧
 
-## Build
+*Revenez bientôt, il sera bientôt disponible...*
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+---
 
-## Running unit tests
+## ✨ À propos
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Portfolio personnel de **Benjamin Liet**, développeur passionné.
+Conçu et développé avec **Angular**.
 
-## Running end-to-end tests
+## 🛠️ Technologies utilisées
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+- **Framework** : Angular
+- **Langage** : TypeScript
+- **Styles** : SCSS
 
-## Further help
+## 📦 Installation
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+```bash
+# Cloner le repo
+git clone https://github.com/Benjaliette/benjadev-portfolio
+
+# Installer les dépendances
+npm install
+
+# Lancer en local
+ng serve
