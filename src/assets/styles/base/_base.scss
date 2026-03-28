@@ -1,0 +1,30 @@
+@import "../abstracts/variables";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: $text-font;
+  font-size: 1.1rem;
+  font-weight: 300;
+  color: $primary-color;
+}
+
+h1 {
+  font-family: $code-font;
+  font-size: 2.5rem;
+  color: $secondary-color;
+  font-weight: bold;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 70%;
+  }
+}
+@media (min-width: 1024px) {
+  .container {
+    width: 60%;
+  }
+}
