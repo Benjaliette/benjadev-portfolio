@@ -18,25 +18,6 @@ $secondary-color: #0f4c75;
   }
 }
 
-@keyframes typing {
-  from {
-    max-width: 0;
-  }
-  to {
-    max-width: 100%;
-  }
-}
-
-@keyframes blink-caret {
-  from,
-  to {
-    border-color: transparent;
-  }
-  50% {
-    border-color: $secondary-color;
-  }
-}
-
 .about-container {
   margin-top: 20vh;
   margin: 0 auto;
