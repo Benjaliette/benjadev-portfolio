@@ -1,0 +1,25 @@
+<div class="terminal">
+  <div class="terminal-header">
+    <div class="header-button red"></div>
+    <div class="header-button yellow"></div>
+    <div class="header-button green"></div>
+  </div>
+  <div class="terminal-window">
+    <div>
+      @for (skill of skills; track $index) {
+        <div class="statement">
+          <div class="input-statement">{{ skill.input }}</div>
+          <div
+            class="return-statement"
+            [innerHTML]="skill.return"
+          ></div>
+        </div>
+      }
+      <div className="statement">
+        <div className="input-statement">
+          <span>&nbsp;</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

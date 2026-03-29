@@ -4,13 +4,14 @@ $secondary-color: #0f4c75;
   margin: 3rem 0;
 
   h1 {
-    width: 63%;
+    width: fit-content;
     font-weight: 500;
     margin-bottom: 1rem;
     overflow: hidden;
+    padding-right: 0.3em;
     border-right: 0.15em solid $secondary-color;
     white-space: nowrap;
-    letter-spacing: 0.15em;
+    letter-spacing: 0.1em;
     animation:
       typing 2s steps(40, end),
       blink-caret 0.8s step-end infinite;
@@ -34,4 +35,9 @@ $secondary-color: #0f4c75;
   50% {
     border-color: $secondary-color;
   }
+}
+
+.about-container {
+  margin-top: 20vh;
+  margin: 0 auto;
 }
